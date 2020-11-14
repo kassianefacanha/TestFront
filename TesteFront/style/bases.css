@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html{
+    background-color: #E5E5E5;
+}
+/* Base 1 */
+.cards{
+    position: absolute;
+    width: 80%;
+    height: 243px;
+    left: 0px;
+    top: 915px;
+    margin-left: 10%;
+}
+.table-responsive{
+    position: absolute;
+    width: 80%;
+    height: 243px;
+    left: 0px;
+    top:40px;
+    margin-left: 10%;
+}
+
+
+.titulo{
+    position: absolute;
+    border-radius: nullpx;
+    font-family: Averta;
+    width: 40%;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+    
+}
+
+.retangulo{
+    position: absolute;
+    width: 100%;
+    height: 343px;
+    left: 0px;
+    top: 660px;
+    background: #3286C3;
+}
+.icon{
+    width: 110px;
+    padding-right: 15px;
+    margin-bottom: 70%;
+}
+.card-body{
+    position: relative;
+    top: -60px;
+    height: 120px ;
+}
+.card-text{
+    width: 100%;    
+    height: 79px;
+    left: 497px;
+    top: 1289px;
+
+
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.03em;
+
+    color: #6A6A57;
+
+}
+/* Base 2 */
+
+.bloco-two{
+    position: absolute;
+    width: 80%;
+    height: 700px;
+    left: 0px;
+    top: 1383px;
+    margin-left: 10%;
+}
+.bloco-ret{
+    position: absolute;
+    width: 65%;
+    height: 700px;
+    background: #FFFFFF;
+}
+.bloco-title{
+    position: absolute;
+    width: 422px;
+    height: 76px;
+    left: 70px;
+    top:50px;
+    
+    /* H2 Headline */
+    
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    /* or 118% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* Orange-Light/-100 */
+    
+    color: #FF5E0F;
+}
+.bloco-text{
+    position: absolute;
+    width: 422px;
+    height: 338px;
+    left:70px;
+    top: 200px;
+
+    /* Body 1 */
+
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.03em;
+
+    /* Paragrafo/-100 */
+
+    color: #4F4F40;
+}
+.butt{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 26px;
+
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    left: 70px;
+    top: 600px;
+
+    /* Orange-Light/-100 */
+
+    background: #FF5E0F;
+    border-radius: 40px;
+    border: 0;
+    font-family: Averta;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height, or 121% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.image{
+   
+    position: absolute;
+    width: 90%;
+    height: 477px;
+    left: 557px;
+    top:50px;
+    background-image: url('../assets/img/atleta.png');
+}
+.image img{
+    width: 100%;
+    margin-left: 15px;
+}
